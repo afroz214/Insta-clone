@@ -1,0 +1,32 @@
+.navbar {
+  border-bottom: 1px solid black;
+}
+
+.nav-link.active,
+.nav-link:hover {
+color: #2ccc17!important;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+.link:hover {
+  text-decoration: none;
+  color: black;
+}
+.comment-delete {
+  cursor: pointer;
+}
+.register {
+  text-decoration: underline blue;
+}
+.login {
+  text-decoration: underline blue;
+}
+
+@media(max-width: 768px) {
+  .profile {
+    text-align: center;
+  }
+}
